@@ -15,7 +15,7 @@ let package = Package(
         ]),
         .library(
             name: "iPopenD",
-            targets: ["PopenD"],,
+            targets: ["PopenD"],
             moduleAliases: [
                 "PopenD": "iPopenD"
         ]),
