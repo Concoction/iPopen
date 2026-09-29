@@ -9,10 +9,16 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "iPopen",
-            targets: ["Popen"]),
+            targets: ["Popen"],
+            moduleAliases: [
+                "iPopen": "Popen"
+        ]),
         .library(
             name: "iPopenD",
-            targets: ["PopenD"]),
+            targets: ["PopenD"],,
+            moduleAliases: [
+                "iPopen": "Popen"
+        ]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
