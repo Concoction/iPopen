@@ -11,13 +11,13 @@ let package = Package(
             name: "iPopen",
             targets: ["Popen"],
             moduleAliases: [
-                "iPopen": "Popen"
+                "Popen": "iPopen"
         ]),
         .library(
             name: "iPopenD",
             targets: ["PopenD"],,
             moduleAliases: [
-                "iPopenD": "PopenD"
+                "PopenD": "iPopenD"
         ]),
     ],
     dependencies: [
