@@ -15,7 +15,7 @@ let package = Package(
             targets: ["PopenD"]),
         ],
         moduleAliases: [
-                "Popen": "iPopen"
+                "Popen": "iPopen",
                 "PopenD": "iPopenD"
         ],
     ],
