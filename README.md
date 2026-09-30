@@ -1,6 +1,6 @@
 # Popen
 
-Bring no-frills UNIX IPC back into Swift. For example:
+Bring no-frills UNIX IPC back into Swift (workaource for use with iOS on Xcode 27). For example:
 
 ```
     guard let inp = Popen(cmd: "/bin/ls /tmp"),
