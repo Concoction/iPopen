@@ -26,19 +26,13 @@ let package = Package(
             name: "iPopen",
             dependencies: [
                 .product(name: "Popen",
-                         package: "Popen",
-                         moduleAliases: [
-                            "Popen": "iPopen",
-                         ])]),
+                         package: "Popen")]),
 
         .target(
             name: "iPopenD",
             dependencies: [
                 .product(name: "PopenD",
-                         package: "Popen",
-                         moduleAliases: [
-                            "PopenD": "iPopenD",
-                         ])],
+                         package: "Popen")],
             swiftSettings: [.define("DEBUG_ONLY")]),
     ]
 )
